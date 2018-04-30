@@ -79,7 +79,7 @@ input[type=submit]:hover {
       <div id="map" style="width:100%;height:500px"></div>
     </div>
     <div class="column">
-      <form action="/action_page.php">
+      <form action="/home">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
         <label for="lname">Last Name</label>
@@ -93,6 +93,7 @@ input[type=submit]:hover {
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
         <input type="submit" value="Submit">
+        <button class="w3-button w3-red" ,="" method="POST" action="http://127.0.0.1:8000/home">Back</button>
       </form>
     </div>
   </div>
